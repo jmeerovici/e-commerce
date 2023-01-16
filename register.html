@@ -1,0 +1,89 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> register</title>
+    <link rel="stylesheet" href="cssHome.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.jpg" alt="" width="180">
+        
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html">Add Item</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="cart.html"><img src="images/Cart.jpg" alt="" width="30"></a></li>
+            <li><a href="logIn.html">Log in</a></li>
+            
+          
+        </ul>
+        </div>
+    </div>
+<br>
+
+
+    <form action="index.html">
+        <div class="fields maindiv center">
+            <h1>Create Acount</h1>
+            <div class="fields-inner">
+                <div class="field-item">
+                    <label class="user output" for="">name <br></label><input type="text" class="user input" name="name" id="name"><br>
+                </div>
+                <div class="field-item">
+                    <label class="user output" for="">surname <br></label><input type="text" class="user input" name="surname" id="surname"><br>
+                </div>
+                <div class="field-item">
+                    <label class="user output" for="">gender <br></label>
+                    <select name="gender"  class="user input">
+                        <option value="Male"> Male</option>
+                        <option value="Female"> Female</option>
+                        <option value="Other"> Other</option>
+                    </select>
+                </div>
+                <div class="field-item">
+                    <label class="user output" for="">ZIP-code <br></label><input type="text" class="user input" name="zip" id="zip"><br>
+                </div>
+            </div>
+            <div class="field-item">
+                <label class="user output alone" for="">email <br></label><input type="email" class="user input alone" name="email" id="email"><br>
+            </div>
+            <div class="fields-inner">
+                <div class="field-item">
+                    <label class="user output" for="">username <br></label><input type="text" class="user input" name="username" id="username"><br>
+                </div>
+                <div class="field-item">
+                    <label class="user output" for="">password <br></label><input type="password" class="user input" name="password" id="password"><br>
+                </div>
+                <div class="field-item">
+                    <label class="user output" for="">confirm password <br></label><input type="password" class="user input" name="confpassword" id="confpassword"><br>
+                </div>             
+                <div class="field-item">
+                    <label class="user output" for="">language <br></label>
+                    <select name="language"  class="user input">
+                        <option value="English"> English</option>
+                        <option value="Dutch"> Dutch</option>
+                        <option value="Spanish"> Spanish</option>
+                    </select>
+                </div>
+                
+                <div class="field-item maindiv">
+                    <input type="radio" name="choice" value="buyer" class="radioText"> <label class="radioText" for="">buyer</label> <br>
+                </div>
+                <div class="field-item maindiv">
+                    <input type="radio" name="choice" value="seller" class="radioText"> <label class="radioText" for="">seller</label> <br>
+                </div>
+            </div>
+            <label for=""> your message:</label>
+            <br>
+            <textarea name="textarea" rows="5" cols="50" class="input"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="submit" class="button" id="button1"/><br>
+        </form>
+    </div>
+      
+</body>
+</html>

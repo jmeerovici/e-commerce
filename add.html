@@ -1,0 +1,67 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Item</title>
+    <link rel="stylesheet" href="cssHome.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.jpg" alt="" width="180">
+        
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add.html">Add Item</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a href="cart.html"><img src="images/Cart.jpg" alt="" width="30"></a></li>
+            <li><a href="logIn.html">Log in</a></li>
+            
+          
+        </ul>
+        </div>
+    </div>
+
+<br>
+
+
+<form action="index.html">
+    <div class="fields maindiv center">
+        <h1>Item details</h1>
+        <div class="fields-inner">
+            <div class="field-item">
+                <label class="user output" for="">name <br></label><input type="text" class="user input" name="name" id="name"><br>
+            </div>
+            <div class="field-item">
+                <label class="user output" for="">Price <br></label>
+                <input type="number" class="user input" name="number" id="number" min="0"><br>
+            </div>
+            <div class="field-item">
+                <label class="user output" for="">Quantity <br></label>
+                <input type="number" class="user input"   name="Quantity" id="Quantity" min="0" step="1" ><br>
+            </div>
+            <div class="field-item">
+                <label class="user output" for="">Type of Item <br></label>
+                <select name="type"  class="user input">
+                    <option value="Book"> Book</option>
+                    <option value="Movie"> Movie</option>
+                    <option value="Electronic"> Electronic</option>
+                    <option value="Clothes"> Clothes</option>
+                    <option value="Pet_Supplies"> Pet Supplies</option>
+                    <option value="Home"> Home and kitchen</option>
+                    <option value="Other"> Other</option>
+                </select>
+            </div>
+        </div>
+        <label for=""> Description:</label>
+        <br>
+        <textarea name="textarea" rows="14" cols="50" class="input"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit" class="button" id="button1"/><br>
+    </form>
+</div>
+  
+</body>
+</html>

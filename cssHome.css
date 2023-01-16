@@ -1,0 +1,137 @@
+body{
+    position: relative;
+    align-items: center;
+}
+h1{
+
+    text-align: center;
+    margin: 0%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 97, 144);
+
+}
+
+.nav li {
+    margin-left: 20px;
+  }
+  .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav a:hover {
+  color: #c5cae9;
+}
+.maindiv {
+    padding: 20px;
+    width: max-content;
+    background-color: rgb(197, 233, 245);
+    border-radius: 30px;
+    text-align: center;
+
+}
+.nav a {
+  color: rgb(127, 155, 248);
+  display: block;
+}
+.header {
+    padding: 0 45px;
+    background-color: #000000;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+body{
+    background-color:rgb(158, 176, 227);
+}
+#button1{
+    background-color: rgb(153, 192, 192);
+    padding: 8px 30px;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+#button2{
+    background-color:rgb(197, 233, 245);
+    border: 0ch;
+    margin: auto;
+}
+.user{
+    padding: 2px 20px;
+    margin: 10px;
+    
+}
+.input{
+    background-color: rgb(228, 251, 252);
+}
+
+
+.fields-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 5px;
+
+  }
+  
+
+  label {
+    color: #283593;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  .radioText{
+    color: #283593;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    position: relative;
+    left: 100%;
+  }
+  .alone{
+    position: relative;
+    left: 2px;
+    width: 398px;
+  }
+  select{
+    width: 200px;
+    text-align: center;
+    border-width:0.02in;
+    border-color: black;
+  }
+  textarea{
+    border-radius: 15px;
+
+  }
+  .center{
+    width:500px;
+    margin: auto;
+  }
+  #starRating{
+    padding: 0;
+    margin: auto;
+    position: relative;
+    height:0.5in;
+    width: 2in;
+    
+  }
+
+ 
+  table, th, td {
+    border: 2px solid #283593;
+    width: 500px;
+    border-collapse: collapse;
+
+  }
+
+
+
+
